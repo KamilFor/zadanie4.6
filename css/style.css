@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 1000px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Navigation */
+nav {
+  background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  min-height: 1000px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Golden*/
+.symbol {
+  color: yellow;
+  font-family: 'Yellowtail', cursive;
+}
+
+/* Navigation */
+.navigation div {
+  text-align: center;
+}
+
+.navigation ul {
+  text-align: center;
+  padding: 0;
+  margin: 25px 0 25px 0;
+  list-style-type: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 36px;
+  position: relative;
+}
+
+/* Powitanie */
+.WelcomePhoto {
+  position: absolute;
+  top: 33%;
+  left: 0%;
+}
+
+.Welcome {
+  font-size: 30px;
+  color: white;
+}
+
+.Nice {
+  font-size: 72px;
+  color: white;
+  text-decoration: bold;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #FFCC33;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+/* Services */
+.services {
+  background-color: white;
+  min-height: 400px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header h4 {
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+/* Box */
+.smallimage {
+  text-align: center;
+}
+
+.smallimage li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.smallimage li a {
+  border: 1px solid yellow;
+  border-radius: 100%;
+  float: left;
+  color: yellow;
+  margin: 10px;
+}
+
+.smallimage li a i {
+  position: relative;
+  font-size: 30px;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  bottom: -13px;
+}
+
+.smallimage li a p {
+  font-size: 0;
+}
+
+/* OUR PORTFOLIO */
+.ourportfolio {
+  background-color: gray;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .card-title {
+  font-weight: bold;
+}
+
+.card .card-text {
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .copyrights {
+  margin: auto;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+footer li a {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 100%;
+  float: left;
+  color: white;
+  margin: 10px;
+}
+
+footer li a i {
+  position: relative;
+  font-size: 20px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  bottom: -10px;
+}
+
+footer li a p {
+  font-size: 0;
+}
+/*# sourceMappingURL=style.css.map */
